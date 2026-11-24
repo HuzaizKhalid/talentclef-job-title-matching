@@ -1,0 +1,5 @@
+language,queries,corpus_size,qrels_pairs,avg_relevant_per_query
+english,105,2619,2420,23.05
+spanish,185,4661,7579,40.97
+german,203,4729,8417,41.46
+chinese,103,2513,2319,22.51

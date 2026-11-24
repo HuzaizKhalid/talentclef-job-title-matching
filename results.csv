@@ -1,0 +1,113 @@
+system,language,metric,mean,std
+TF-IDF (char n-gram),english,MAP,0.3419,0.0216
+TF-IDF (char n-gram),english,MRR,0.738,0.0319
+TF-IDF (char n-gram),english,P@5,0.5981,0.0287
+TF-IDF (char n-gram),english,P@10,0.5019,0.0284
+TF-IDF (char n-gram),english,R@10,0.2836,0.0193
+TF-IDF (char n-gram),english,R@100,0.5175,0.0248
+TF-IDF (char n-gram),english,NDCG@10,0.5718,0.026
+TF-IDF (char n-gram),spanish,MAP,0.2868,0.0151
+TF-IDF (char n-gram),spanish,MRR,0.5448,0.0122
+TF-IDF (char n-gram),spanish,P@5,0.6216,0.0194
+TF-IDF (char n-gram),spanish,P@10,0.5789,0.0212
+TF-IDF (char n-gram),spanish,R@10,0.2174,0.0146
+TF-IDF (char n-gram),spanish,R@100,0.4574,0.0186
+TF-IDF (char n-gram),spanish,NDCG@10,0.5575,0.0177
+TF-IDF (char n-gram),german,MAP,0.2369,0.0127
+TF-IDF (char n-gram),german,MRR,0.4918,0.0238
+TF-IDF (char n-gram),german,P@5,0.5054,0.0215
+TF-IDF (char n-gram),german,P@10,0.4951,0.0197
+TF-IDF (char n-gram),german,R@10,0.1714,0.0111
+TF-IDF (char n-gram),german,R@100,0.4064,0.0174
+TF-IDF (char n-gram),german,NDCG@10,0.4766,0.0188
+TF-IDF (char n-gram),chinese,MAP,0.3175,0.0214
+TF-IDF (char n-gram),chinese,MRR,0.7669,0.0311
+TF-IDF (char n-gram),chinese,P@5,0.5981,0.0312
+TF-IDF (char n-gram),chinese,P@10,0.4903,0.0287
+TF-IDF (char n-gram),chinese,R@10,0.2662,0.0191
+TF-IDF (char n-gram),chinese,R@100,0.4954,0.0243
+TF-IDF (char n-gram),chinese,NDCG@10,0.5646,0.0269
+multilingual-e5-base,english,MAP,0.403,0.0226
+multilingual-e5-base,english,MRR,0.7761,0.0291
+multilingual-e5-base,english,P@5,0.6057,0.0262
+multilingual-e5-base,english,P@10,0.5171,0.0243
+multilingual-e5-base,english,R@10,0.3113,0.0218
+multilingual-e5-base,english,R@100,0.6848,0.0229
+multilingual-e5-base,english,NDCG@10,0.5971,0.0237
+multilingual-e5-base,spanish,MAP,0.3107,0.0152
+multilingual-e5-base,spanish,MRR,0.5466,0.0135
+multilingual-e5-base,spanish,P@5,0.5751,0.0188
+multilingual-e5-base,spanish,P@10,0.5611,0.0199
+multilingual-e5-base,spanish,R@10,0.2202,0.015
+multilingual-e5-base,spanish,R@100,0.5396,0.0194
+multilingual-e5-base,spanish,NDCG@10,0.5388,0.0169
+multilingual-e5-base,german,MAP,0.2314,0.0115
+multilingual-e5-base,german,MRR,0.5121,0.0229
+multilingual-e5-base,german,P@5,0.4926,0.0196
+multilingual-e5-base,german,P@10,0.469,0.0189
+multilingual-e5-base,german,R@10,0.1708,0.0115
+multilingual-e5-base,german,R@100,0.4611,0.0172
+multilingual-e5-base,german,NDCG@10,0.4593,0.0178
+multilingual-e5-base,chinese,MAP,0.4162,0.0229
+multilingual-e5-base,chinese,MRR,0.7849,0.0302
+multilingual-e5-base,chinese,P@5,0.6019,0.0282
+multilingual-e5-base,chinese,P@10,0.5184,0.0262
+multilingual-e5-base,chinese,R@10,0.3153,0.0225
+multilingual-e5-base,chinese,R@100,0.6859,0.0231
+multilingual-e5-base,chinese,NDCG@10,0.6,0.0244
+LaBSE,english,MAP,0.4064,0.0214
+LaBSE,english,MRR,0.7432,0.0285
+LaBSE,english,P@5,0.6133,0.0271
+LaBSE,english,P@10,0.5238,0.0248
+LaBSE,english,R@10,0.313,0.0201
+LaBSE,english,R@100,0.7011,0.0208
+LaBSE,english,NDCG@10,0.5895,0.0228
+LaBSE,spanish,MAP,0.3274,0.0151
+LaBSE,spanish,MRR,0.5493,0.0129
+LaBSE,spanish,P@5,0.6011,0.0179
+LaBSE,spanish,P@10,0.5627,0.0195
+LaBSE,spanish,R@10,0.2161,0.0141
+LaBSE,spanish,R@100,0.567,0.0185
+LaBSE,spanish,NDCG@10,0.5425,0.0163
+LaBSE,german,MAP,0.2316,0.0129
+LaBSE,german,MRR,0.4769,0.0243
+LaBSE,german,P@5,0.4601,0.0212
+LaBSE,german,P@10,0.4616,0.0206
+LaBSE,german,R@10,0.1603,0.0102
+LaBSE,german,R@100,0.4557,0.0177
+LaBSE,german,NDCG@10,0.4455,0.0193
+LaBSE,chinese,MAP,0.4141,0.023
+LaBSE,chinese,MRR,0.757,0.0297
+LaBSE,chinese,P@5,0.6058,0.027
+LaBSE,chinese,P@10,0.5311,0.0262
+LaBSE,chinese,R@10,0.3242,0.0223
+LaBSE,chinese,R@100,0.7039,0.0232
+LaBSE,chinese,NDCG@10,0.5992,0.0237
+bge-m3,english,MAP,0.4325,0.0218
+bge-m3,english,MRR,0.7696,0.029
+bge-m3,english,P@5,0.6419,0.0264
+bge-m3,english,P@10,0.541,0.0239
+bge-m3,english,R@10,0.3222,0.0209
+bge-m3,english,R@100,0.6985,0.0217
+bge-m3,english,NDCG@10,0.6177,0.0229
+bge-m3,spanish,MAP,0.266,0.0131
+bge-m3,spanish,MRR,0.5305,0.0133
+bge-m3,spanish,P@5,0.573,0.0174
+bge-m3,spanish,P@10,0.5178,0.0188
+bge-m3,spanish,R@10,0.2011,0.0136
+bge-m3,spanish,R@100,0.5033,0.0177
+bge-m3,spanish,NDCG@10,0.5048,0.016
+bge-m3,german,MAP,0.2243,0.0112
+bge-m3,german,MRR,0.5391,0.0219
+bge-m3,german,P@5,0.4887,0.0186
+bge-m3,german,P@10,0.4601,0.0176
+bge-m3,german,R@10,0.1658,0.0111
+bge-m3,german,R@100,0.4588,0.0156
+bge-m3,german,NDCG@10,0.4565,0.0168
+bge-m3,chinese,MAP,0.4038,0.0221
+bge-m3,chinese,MRR,0.7844,0.0287
+bge-m3,chinese,P@5,0.6097,0.026
+bge-m3,chinese,P@10,0.5146,0.0241
+bge-m3,chinese,R@10,0.3105,0.021
+bge-m3,chinese,R@100,0.7033,0.0214
+bge-m3,chinese,NDCG@10,0.59,0.0221

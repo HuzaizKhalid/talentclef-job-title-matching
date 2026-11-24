@@ -1,0 +1,25 @@
+language,system_A,system_B,mean_diff_A_minus_B,ci95_low,ci95_high,significant,n_queries
+english,TF-IDF (char n-gram),multilingual-e5-base,-0.0611,-0.0875,-0.0342,True,105
+english,TF-IDF (char n-gram),LaBSE,-0.0645,-0.0926,-0.0347,True,105
+english,TF-IDF (char n-gram),bge-m3,-0.0906,-0.1147,-0.0673,True,105
+english,multilingual-e5-base,LaBSE,-0.0034,-0.0271,0.0217,False,105
+english,multilingual-e5-base,bge-m3,-0.0295,-0.0499,-0.0089,True,105
+english,LaBSE,bge-m3,-0.0261,-0.0491,-0.0036,True,105
+spanish,TF-IDF (char n-gram),multilingual-e5-base,-0.0239,-0.0416,-0.0072,True,185
+spanish,TF-IDF (char n-gram),LaBSE,-0.0407,-0.0613,-0.0201,True,185
+spanish,TF-IDF (char n-gram),bge-m3,0.0208,0.0002,0.0415,True,185
+spanish,multilingual-e5-base,LaBSE,-0.0167,-0.0307,-0.0028,True,185
+spanish,multilingual-e5-base,bge-m3,0.0447,0.0323,0.0571,True,185
+spanish,LaBSE,bge-m3,0.0614,0.0451,0.0789,True,185
+german,TF-IDF (char n-gram),multilingual-e5-base,0.0055,-0.0056,0.017,False,203
+german,TF-IDF (char n-gram),LaBSE,0.0053,-0.0111,0.0221,False,203
+german,TF-IDF (char n-gram),bge-m3,0.0126,-0.003,0.0287,False,203
+german,multilingual-e5-base,LaBSE,-0.0003,-0.0156,0.0145,False,203
+german,multilingual-e5-base,bge-m3,0.0071,-0.0042,0.0176,False,203
+german,LaBSE,bge-m3,0.0074,-0.0077,0.0222,False,203
+chinese,TF-IDF (char n-gram),multilingual-e5-base,-0.0987,-0.1275,-0.0699,True,103
+chinese,TF-IDF (char n-gram),LaBSE,-0.0966,-0.1297,-0.0643,True,103
+chinese,TF-IDF (char n-gram),bge-m3,-0.0863,-0.1136,-0.06,True,103
+chinese,multilingual-e5-base,LaBSE,0.0021,-0.0241,0.0267,False,103
+chinese,multilingual-e5-base,bge-m3,0.0124,-0.0058,0.0317,False,103
+chinese,LaBSE,bge-m3,0.0103,-0.0176,0.039,False,103
