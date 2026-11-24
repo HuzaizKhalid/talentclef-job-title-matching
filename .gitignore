@@ -1,0 +1,3 @@
+TaskA/
+*.npy
+__pycache__/
